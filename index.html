@@ -4,33 +4,28 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO Meta Tag principali -->
-  <title>Officina Lucignolo — Candele Premium Handmade, Bottigliette Magiche e Creazioni Artigianali</title>
-  <meta name="description" content="Officina Lucignolo è un'officina di idee artigianali: candele premium, cere naturali, bottigliette magiche e creazioni fatte a mano con cura e passione." />
-  <meta name="keywords" content="candele, cere, candele premium, bottigliette magiche, handmade, fatto a mano, candele artigianali, cera naturale, officina lucignolo, artigianato, candele profumate" />
+  <title>Officina Lucignolo — Cere Ribelli, Candele Premium Handmade & Bottigliette Magiche</title>
+  <meta name="description" content="Officina Lucignolo: cere ribelli, candele premium fatte a mano, bottigliette magiche. Alchimia d'eccellenza, fuori dagli schemi. Artigianato handmade." />
+  <meta name="keywords" content="candele, cere, cere ribelli, candele premium, bottigliette magiche, handmade, fatto a mano, candele artigianali, cera naturale, officina lucignolo, artigianato, candele profumate, alchimia" />
   <meta name="author" content="Officina Lucignolo" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.officinalucignolo.it/" />
 
-  <!-- Open Graph (per condivisioni social) -->
-  <meta property="og:title" content="Officina Lucignolo — Candele Premium & Creazioni Handmade" />
-  <meta property="og:description" content="Candele premium, cere naturali, bottigliette magiche e creazioni artigianali fatte a mano con amore." />
+  <meta property="og:title" content="Officina Lucignolo — Cere Ribelli & Candele Premium Handmade" />
+  <meta property="og:description" content="Cere ribelli, candele premium, bottigliette magiche. Alchimia d'eccellenza, fuori dagli schemi. Fatto a mano con passione." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.officinalucignolo.it/" />
   <meta property="og:locale" content="it_IT" />
-  <!-- Quando hai un'immagine reale, sostituisci il src qui sotto -->
-  <!-- <meta property="og:image" content="https://www.officinalucignolo.it/immagine.jpg" /> -->
-  <meta property="og:image" content="https://officinalucignolo.github.io/Lucignolo/Image01.jpeg" />
-  
-  <!-- Schema.org structured data (aiuta Google a capire il sito) -->
+  <meta property="og:image" content="https://officinalucignolo.github.io/Image01.jpeg" />
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Officina Lucignolo",
-    "description": "Officina artigianale di candele premium, cere naturali, bottigliette magiche e creazioni handmade.",
+    "description": "Cere ribelli, candele premium fatte a mano, bottigliette magiche. Alchimia d'eccellenza, fuori dagli schemi.",
     "url": "https://www.officinalucignolo.it",
-    "keywords": "candele, cere, bottigliette magiche, handmade, fatto a mano, candele premium"
+    "keywords": "candele, cere ribelli, bottigliette magiche, handmade, fatto a mano, candele premium"
   }
   </script>
 
@@ -39,8 +34,8 @@
 
     body {
       font-family: Georgia, 'Times New Roman', serif;
-      background-color: #faf7f2;
-      color: #2c2c2a;
+      background-color: #111110;
+      color: #f1efe8;
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -49,13 +44,13 @@
     }
 
     .container {
-      max-width: 560px;
+      max-width: 600px;
       width: 100%;
       text-align: center;
     }
 
     .header {
-      border-bottom: 1px solid #d3d1c7;
+      border-bottom: 1px solid #444441;
       padding-bottom: 1.5rem;
       margin-bottom: 2rem;
     }
@@ -63,68 +58,58 @@
     .tagline {
       font-family: 'Helvetica Neue', Arial, sans-serif;
       font-size: 11px;
-      letter-spacing: 4px;
+      letter-spacing: 5px;
       text-transform: uppercase;
       color: #888780;
       margin-bottom: 0.6rem;
     }
 
     h1 {
-      font-size: clamp(28px, 6vw, 42px);
+      font-size: clamp(28px, 6vw, 44px);
       font-weight: 400;
-      color: #2c2c2a;
-      letter-spacing: 1px;
-      margin-bottom: 0.5rem;
+      color: #f1efe8;
+      letter-spacing: 2px;
+      margin-bottom: 0.4rem;
     }
 
-    .subtitle {
+    .claim {
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 13px;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
       color: #888780;
-      font-style: italic;
-      line-height: 1.6;
+      margin-top: 0.4rem;
     }
 
-    /* Immagine */
     .image-wrapper {
       width: 100%;
-      max-width: 480px;
+      max-width: 560px;
       margin: 0 auto 2rem;
-      aspect-ratio: 4 / 3;
-      border-radius: 12px;
+      border-radius: 10px;
       overflow: hidden;
-      border: 1px solid #d3d1c7;
-      background: linear-gradient(135deg, #f5e6d3, #d4b896);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
+      border: 1px solid #444441;
     }
 
-    /* Quando avrai la tua immagine, sostituisci il div .placeholder con:
-       <img src="tua-immagine.jpg" alt="Candele premium Officina Lucignolo" style="width:100%;height:100%;object-fit:cover;" />
-    */
-    .placeholder-icon {
-      font-size: 60px;
-      line-height: 1;
-    }
-    .placeholder-text {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 11px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #8a6a4a;
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
     }
 
     .description {
       font-size: 16px;
-      line-height: 1.85;
-      color: #444441;
+      line-height: 1.9;
+      color: #b4b2a9;
       margin-bottom: 2rem;
     }
 
-    /* Tag keywords visibili */
+    .description strong {
+      color: #f1efe8;
+      font-weight: 400;
+      font-style: italic;
+    }
+
     .tags {
       display: flex;
       flex-wrap: wrap;
@@ -135,26 +120,26 @@
 
     .tag {
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      font-size: 12px;
+      font-size: 11px;
       padding: 5px 14px;
-      border: 1px solid #b4b2a9;
+      border: 1px solid #444441;
       border-radius: 999px;
-      color: #5f5e5a;
-      letter-spacing: 0.3px;
-      background: transparent;
+      color: #888780;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
 
     .footer {
-      border-top: 1px solid #d3d1c7;
+      border-top: 1px solid #444441;
       padding-top: 1.2rem;
     }
 
     .domain {
       font-family: 'Helvetica Neue', Arial, sans-serif;
       font-size: 11px;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
       text-transform: uppercase;
-      color: #888780;
+      color: #5f5e5a;
     }
   </style>
 </head>
@@ -163,33 +148,39 @@
   <div class="container">
 
     <header class="header">
-      <p class="tagline">Artigianato Premium</p>
+      <p class="tagline">Alchimia d'Eccellenza</p>
       <h1>Officina Lucignolo</h1>
-      <p class="subtitle">Officina di idee — candele premium, bottigliette magiche e creazioni handmade</p>
+      <p class="claim">Cere Ribelli — Fuori dagli Schemi</p>
     </header>
 
     <main>
 
-      <!-- IMMAGINE: sostituisci il div qui sotto con il tuo <img> quando sei pronto -->
       <div class="image-wrapper">
-        <div class="placeholder-icon">🕯️</div>
-        <p class="placeholder-text">Immagine in arrivo</p>
+        <img
+          src="Image01.jpeg"
+          alt="Officina Lucignolo — Cere Ribelli, candele premium handmade fatte a mano"
+          width="1200"
+          height="800"
+          loading="eager"
+        />
       </div>
 
       <p class="description">
-        Ogni candela è un'idea presa fuoco.<br>
-        Cere naturali, profumi ricercati, bottigliette magiche<br>
-        e creazioni fatte a mano con cura artigianale.
+        Non siamo una candela qualunque.<br>
+        Siamo <strong>cere ribelli</strong>, alchimia d'eccellenza,<br>
+        bottigliette magiche e creazioni <strong>handmade</strong><br>
+        pensate per chi vuole qualcosa di unico.
       </p>
 
-      <!-- Tag parole chiave visibili (aiutano anche la SEO) -->
       <div class="tags" aria-label="Categorie">
         <span class="tag">Candele</span>
-        <span class="tag">Cere naturali</span>
-        <span class="tag">Bottigliette magiche</span>
+        <span class="tag">Cere Ribelli</span>
+        <span class="tag">Candele Premium</span>
+        <span class="tag">Bottigliette Magiche</span>
         <span class="tag">Handmade</span>
         <span class="tag">Fatto a mano</span>
-        <span class="tag">Candele premium</span>
+        <span class="tag">Cere naturali</span>
+        <span class="tag">Artigianato</span>
       </div>
 
     </main>
