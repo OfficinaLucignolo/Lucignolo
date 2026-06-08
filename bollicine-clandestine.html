@@ -270,6 +270,31 @@
     .overlay-cta:hover {
       border-bottom: none !important;
     }
+	
+	
+    /* GALLERIA */
+    .gallery {
+      margin-top: 2.5rem;
+    }
+
+    .gallery-item {
+      margin-bottom: 1.2rem;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #444441;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      transition: opacity 0.2s ease;
+    }
+
+    .gallery-item img:hover {
+      opacity: 0.9;
+    }
+
+
   </style>
 </head>
 
@@ -313,14 +338,48 @@ window.addEventListener("DOMContentLoaded", function() {
     <p class="claim">Cere Ribelli — Fuori dagli Schemi</p>
 
     <div class="menu">
-      <a onclick="window.location.href='cereribelli.html'" class="box-btn">Cere Ribelli</a>
+      <a onclick="window.location.href='index.html'" class="box-btn">HOME PAGE</a>
+	  <a onclick="window.location.href='cereribelli.html'" class="box-btn">CERE RIBELLI</a>
       <a href="#contatti" class="box-btn">Contatti</a>
     </div>
+		
   </header>
 
-  <div class="image-wrapper">
-    <img src="Image01.jpeg" alt="Officina Lucignolo">
+	
+  <p class="intro">
+    <em><strong>Il fascino di un brindisi intramontabile, racchiuso in un calice di luce.</strong></em>
+  </p>
+
+  <p class="descrizione">
+    Lasciati sedurre dall'eleganza di Bollicine Clandestine, una candela d'alta profumeria artigianale
+    che unisce l'estetica raffinata di un calice di champagne a un'esperienza sensoriale unica.
+    Pensata per chi ama i dettagli di lusso e le calde atmosfere, questa creazione non è una semplice
+    candela, ma un vero e proprio pezzo di design per la tua casa.
+  </p>
+
+  <p class="descrizione">
+    Accendendola, sarai avvolto dalle note frizzanti e lussuose della profumazione allo champagne,
+    mentre lo stoppino in legno creerà l'atmosfera intima di un caminetto grazie al suo delicato
+    e rilassante crepitio.
+  </p>
+
+  <!-- GALLERIA IMMAGINI DI DETTAGLIO -->
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="BollicineClandestine/Bollicine Clandestine 001.jpeg" alt="Bollicine Clandestine — dettaglio 1">
+    </div>
+    <div class="gallery-item">
+      <img src="BollicineClandestine/Bollicine Clandestine 002.jpeg" alt="Bollicine Clandestine — dettaglio 2">
+    </div>
+    <div class="gallery-item">
+      <img src="BollicineClandestine/Bollicine Clandestine 003.jpeg" alt="Bollicine Clandestine — dettaglio 3">
+    </div>
+    <div class="gallery-item">
+      <img src="BollicineClandestine/Bollicine Clandestine 004.jpeg" alt="Bollicine Clandestine — dettaglio 4">
+    </div>
+    <!-- Aggiungi altri <div class="gallery-item"> per nuove foto -->
   </div>
+
 
   <section id="contatti">
 	  <footer class="footer">

@@ -270,6 +270,31 @@
     .overlay-cta:hover {
       border-bottom: none !important;
     }
+	
+	
+    /* GALLERIA */
+    .gallery {
+      margin-top: 2.5rem;
+    }
+
+    .gallery-item {
+      margin-bottom: 1.2rem;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #444441;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      transition: opacity 0.2s ease;
+    }
+
+    .gallery-item img:hover {
+      opacity: 0.9;
+    }
+
+
   </style>
 </head>
 
@@ -313,14 +338,43 @@ window.addEventListener("DOMContentLoaded", function() {
     <p class="claim">Cere Ribelli — Fuori dagli Schemi</p>
 
     <div class="menu">
-      <a onclick="window.location.href='cereribelli.html'" class="box-btn">Cere Ribelli</a>
+      <a onclick="window.location.href='index.html'" class="box-btn">HOME PAGE</a>
+	  <a onclick="window.location.href='cereribelli.html'" class="box-btn">CERE RIBELLI</a>
       <a href="#contatti" class="box-btn">Contatti</a>
     </div>
+		
   </header>
 
-  <div class="image-wrapper">
-    <img src="Image01.jpeg" alt="Officina Lucignolo">
+	
+  <p class="intro">
+    <em><strong>Il fascino di un brindisi intramontabile, racchiuso in un calice di luce.</strong></em>
+  </p>
+
+  <p class="descrizione">
+    Lasciati sedurre dall'eleganza dalla mala margherita.
+  </p>
+
+  <p class="descrizione">
+    Accendendola, sarai avvolto dai petali di margherita.
+  </p>
+
+  <!-- GALLERIA IMMAGINI DI DETTAGLIO -->
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="MalaMargherita/MalaMargherita001.jpeg" alt="Mala Margherita — dettaglio 1">
+    </div>
+    <div class="gallery-item">
+      <img src="MalaMargherita/MalaMargherita002.jpeg" alt="Mala Margherita — dettaglio 2">
+    </div>
+    <div class="gallery-item">
+      <img src="MalaMargherita/MalaMargherita003.jpeg" alt="Mala Margherita — dettaglio 3">
+    </div>
+    <div class="gallery-item">
+      <img src="MalaMargherita/MalaMargherita004.jpeg" alt="Mala Margherita — dettaglio 4">
+    </div>
+    <!-- Aggiungi altri <div class="gallery-item"> per nuove foto -->
   </div>
+
 
   <section id="contatti">
 	  <footer class="footer">
