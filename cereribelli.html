@@ -44,7 +44,13 @@
       font-weight: 400;
       letter-spacing: 2px;
     }
-
+	h2 {
+      font-size: clamp(28px, 6vw, 30px);
+      font-weight: 300;
+      letter-spacing: 2px;
+	  margin-top: 1rem;
+      margin-bottom: 0.4rem;
+    }
     .claim {
       font-family: Arial;
       font-size: 12px;
@@ -157,7 +163,12 @@
       margin-top: 1rem;
       margin-bottom: 0.4rem;
     }
-
+    .product gallery {
+      font-size: 8px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #5f5e5a;
+    }
     .product img {
       width: 50%;
       display: block;
@@ -320,17 +331,33 @@ window.addEventListener("DOMContentLoaded", function() {
   </header>
 
 	<div class="product" onclick="window.location.href='bollicine-clandestine.html'">
-	  <h3>Bollicine Clandestine</h3>
+	  <h2>Bollicine Clandestine</h2>
 	  <img src="BollicineClandestine/Bollicine Clandestine 000.jpeg" alt="Bollicine Clandestine">
 	  <p class="intro"><em><strong>Il fascino di un brindisi intramontabile, racchiuso in un calice di luce.</strong></em></p>
+	  <p class="gallery">Visualizza galleria...</p>
 	</div>
 
 	<div class="product" onclick="window.location.href='mala-margherita.html'">
-	  <h3>Mala Margherita</h3>
+	  <h2>Mala Margherita</h2>
 	  <img src="MalaMargherita/MalaMargherita000.jpeg" alt="Mala Margherita">
-	  <p class="intro"><em><strong>Cera di soia. Limone Frizzante... una tentazione a cui è impossibile resistere</strong></em></p>
+	  <p class="intro"><em><strong>Cera di soia. Limone Frizzante... una tentazione a cui è impossibile resistere.</strong></em></p>
+	  <p class="gallery">Visualizza galleria...</p>
 	</div>
 
+	<div class="product" onclick="window.location.href='alchimia-ambra.html'">
+	  <h2>Alchimia d'Ambra</h2>
+	  <img src="AlchimiaAmbra/AlchimiaAmbra000.jpeg" alt="Alchimia d'Ambra">
+	  <p class="intro"><em><strong>Nulla si distrugge, tutto si trasforma: Il Kit Esperienza.</strong></em></p>
+	  <p class="gallery">Visualizza galleria...</p>
+	</div>
+
+	<div class="product" onclick="window.location.href='balocco-spritz.html'">
+	  <h2>Balocco Spritz</h2>
+	  <img src="BaloccoSpritz/BaloccoSpritz000.jpeg" alt="Balocco Spritz">
+	  <p class="intro"><em><strong>Goditi l'atmosfera del perfetto aperitivo italiano con la nostra candela Balocco Spritz.</strong></em></p>
+	  <p class="gallery">Visualizza galleria...</p>
+	</div>
+	
   <section id="contatti">
 	  <footer class="footer">
 		<p class="domain">officinalucignolo.it</p>
