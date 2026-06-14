@@ -161,12 +161,35 @@
       margin-top: 1rem;
       margin-bottom: 0.4rem;
     }
+	
+	.product .galleryEtzy {
+	  display: block;              /* fondamentale */
+	  font-size: 10px;
+	  letter-spacing: 3px;
+	  text-transform: uppercase;
+	  color: #cf360c;              /* rosso */
+	  margin-top: -8px;
+	  margin-bottom: 1.2rem;
+	  text-decoration: none;
+	  border-bottom: none;
+	}
 
     .product img {
       width: 50%;
       display: block;
       margin: 0 auto 1rem;
     }
+	
+	.galleryEtzy {
+	  display: inline-block;
+	  margin-top: 8px;
+	  font-size: 10px;
+	  letter-spacing: 3px;
+	  text-transform: uppercase;
+	  color: #cf360c;
+	  padding: 6px 10px;
+	  border-radius: 4px;
+	}
 
     /* FOOTER */
     .footer {
@@ -369,6 +392,11 @@ window.addEventListener("DOMContentLoaded", function() {
     <div class="gallery-item">
       <img src="AlchimiaAmbra/AlchimiaAmbra001.jpeg" alt="Alchimie Ambra — dettaglio 1">
     </div>
+	<div class="gallery-item">
+	  <video autoplay muted loop playsinline>
+		<source src="AlchimiaAmbra/AlchimiaAmbra00.mp4" type="video/mp4">
+	  </video>
+	</div>
     <div class="gallery-item">
       <img src="AlchimiaAmbra/AlchimiaAmbra002.jpeg" alt="Alchimie Ambra — dettaglio 2">
     </div>
@@ -377,7 +405,13 @@ window.addEventListener("DOMContentLoaded", function() {
     </div>
     <!-- Aggiungi altri <div class="gallery-item"> per nuove foto -->
   </div>
-
+  
+  <a class="galleryEtzy"
+	 href="https://www.etsy.com/it/listing/4521777822/alchimia-dambra"
+	 target="_blank"
+	 rel="noopener noreferrer">
+	Compra su Etsy...
+  </a>
 
   <section id="contatti">
 	  <footer class="footer">
